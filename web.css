@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.first{
+    background: orange;
+}
+.parent-first{
+display: flex;
+margin-left:360px;
+}
+.parent-first h3{
+    font-size: 20px;
+    padding: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.parent-first a{
+    font-size: 20px;
+    margin-top: 18px;
+    color: yellow;
+    font-weight: bold;
+}
+/* head1 css start */
+.parent-content-data{
+    background-color: rgb(red, green, blue);
+}
+.content-data{
+    display: flex;
+}
+.left-data ul{
+    display: flex;
+    padding-left: 27px;
+}
+.left-data ul li{
+   list-style-type: none;
+   padding: 10px;
+   padding-left: 1px;
+}
+.left-data ul li ::after{
+  content: "|";
+ padding-left: 10px;
+ color: #fff;
+}
+.left-data ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
